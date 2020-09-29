@@ -4,7 +4,7 @@ from itertools import combinations
 import numpy as np
 
 
-def combineInteger():
+def combine_integer():
     """
 
 组合数
@@ -26,10 +26,10 @@ def combineInteger():
     """
     i = input("Input two integers n and k:")
     print(i)
-    s = np.arange(1,int(i[0])+1)
-    print(list(combinations(s,int(i[2]))))
+    s = np.arange(1, int(i[0])+1)
+    print(list(combinations(s, int(i[2]))))
     print('test')
 
 
 def run():
-    combineInteger()
+    combine_integer()
